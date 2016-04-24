@@ -1,0 +1,96 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+/*navbar*/
+.navbar{
+    background-color: rgb(50, 68, 85);
+    font-family: 'PT Sans', sans-serif;
+    border-color: rgb(50, 68, 85);
+    height: 60px;
+}
+.logo {
+  padding-top: 7px;
+}
+/*title*/
+.navbar-inverse .navbar-brand {
+  color: white;
+  font-family: 'PT Sans', sans-serif;
+}
+#brandicon {
+  font-weight: normal;
+  font-size: 18px;
+}
+/*link*/
+.navbar-inverse .navbar-nav > .active > a, 
+.navbar-inverse .navbar-nav > .active > a:hover, 
+.navbar-inverse .navbar-nav > .active > a:focus {
+    color: white;
+    background-color: rgb(50, 68, 85);
+    font-family: 'PT Sans', sans-serif;
+    padding-top: 20px;
+}
+.btn-default {
+  background-color: rgb(50, 68, 85);
+  width: 60px;
+  color: white;
+}
+.glyphicon {
+  color: white;
+}
+img {
+  border-radius: 25px;
+}
+/*page  content*/
+body {
+  padding-top: 50px;
+  margin-bottom: 30px;
+}
+body > .container {
+  padding-top: 60px;
+}
+.container-fluid p {
+  line-height: 30px;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+.intro {
+  background-color: rgba(50, 68, 85, 0.9);
+  font-family: 'PT Sans', sans-serif;
+  color: white;
+  padding: 40px 15px;
+  text-align: center;
+}
+.content {
+  font-family: 'PT Sans', sans-serif;
+  text-align: center;
+  color: rgb(50, 68, 85);
+}
+#page_about p, #page_about h4{
+  text-align: left;
+}
+#page_price p, #page_price h4{
+  text-align: left;
+}
+h2 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+#other {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+/*footer*/
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 30px;
+  background-color: rgb(50, 68, 85);
+}
+.container .text-muted {
+  text-align: center;
+  margin: 5px 0;
+}

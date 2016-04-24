@@ -1,0 +1,145 @@
+<!doctype HTML>
+<html>
+    <head>
+        <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <link href="style.css" rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapased" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-expande="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="brand" href="#"><span class="glyphicon glyphicon-time" aria-hidden="true"></span><img src="logo.png" class="logo" width="250"></a>
+                </div>
+                <div id="navbar" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active" data-target="page_home"><a href="#">Home</a></li>
+                        <li class="active" data-target="page_about"><a href="#">About</a></li>
+                        <li class="active" data-target="page_price"><a href="#">Pricing</a></li>
+                        <li class="active" data-target="page_contact"><a href="#">Contact</a></li>
+                        <li class="active"><a href="cp.php">Demo</a></li>
+                        <li><a href="login.html"><button type="button" class="btn btn-default">Login</button></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container-fluid">
+            <div class="row intro" id="page_home">
+                <h1>The Inventory App</h1>
+                <div class="row-fluid">
+                    <div class="col-md-6 col-md-offset-3">
+                        <div class="col-sm-8 col-sm-offset-2" id="description">
+                            <h4><p>The inventory app was created with small independent restaurants in mind in order to serve professionals in concentrating
+                            
+                            fully in their task by eliminating the burden of manual inventory tracking.</p></h4>
+                            <h1>...</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row content" id="other">
+                <h1>Features</h1>
+                <div class="row-fluid" id="page_about">
+                    <div class="col-md-6 col-md-offset-3">
+                        <div class="col-sm-8 col-sm-offset-2">
+                            <h2>Easily manage your inventory...</h2>
+                            <h4><p>We can help you start by linking your inventory to your own database. After that, our product allows you to easily add and remove products
+                            
+                            and sections of your inventory at will. Automate your entire inventory process from processing inventory as it comes in to products being used.
+                            
+                            You can choose to automatically order more of a particular item when it reaches a certain point.</p></h4>
+                            <img src="screenshot.png" style="height: 200px; width: 300px;">
+                        </div>
+                        <br>
+                        <div class="col-sm-8 col-sm-offset-2">
+                            <h2>Pen and paper are a thing of the past...</h2>
+                            <h4><p>Our product allows for the easy tracking of products by providing a navigational database that updates all of your current products. Our intuitive interface
+                            
+                                   makes the process simple, just click the add button when an item enters your inventory and click the subtract button as you 
+                                   
+                                   remove items from your inventory.</p></h4>
+                            <img src="screenshot1.png" style="height: 200px; width: 300px;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row content">
+                <h1>Pricing</h1>
+                <div class="row-fluid" id="page_price">
+                    <div class="col-md-6 col-md-offset-3">
+                        <div class="col-sm-8 col-sm-offset-2">
+                        <h4><p>
+                            The Inventory App is priced at $100 per license. With a purchase, we show you how to navigate the application
+                            
+                            and assist you in important your inventory into our database. Our application is designed to allow workers to be autonomous,
+                            
+                            they should be easily able to manage the database and inventory without further assistance. Of course, if this assistance is required,
+                            
+                            we will discuss a contract in order to provide continious support of the application.
+                        </h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row content" id="other">
+                <h1>Contact</h1>
+                
+                            <h5>
+                                If you have any questions or concerns, please feel free to contact us!
+                            </h5>
+                <div class="row-fluid" id="page_contact">
+                    <div class="container" id="container_contact">
+                    <div class="row-fluid">
+                        <div class="col-md-6 col-md-offset-3">
+                        <div class="col-sm-8 col-md-offset-2">
+                            <form action="#" class="form-horizontal" role="form">
+                                <div class="form-group">
+                                    <label for="contact-name" class="col-sm-2 control-label">Name</label>
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control" id="contact-name" placeholder="Name">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="contact-email" class="col-sm-2 control-label">Email</label>
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control" id="contact-email" placeholder="Email Address">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="contact-message" class="col-sm-2 control-label">Message</label>
+                                    <div class="col-sm-10">
+                                        <textarea name="contact-message" class="form-control" id="contact-message" cols="30" rows="10" placeholder="Message"></textarea>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-2">
+                                    </div>
+                                    <div class="col-sm-10 text-left">
+                                        <button type="submit" class="btn btn-primary">Send Message</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <footer class="footer">
+          <div class="container">
+            <p class="text-muted">Copyright 2016 The Inventory App. All rights reserved.</p>
+          </div>
+        </footer>
+    </body>
+</html>
